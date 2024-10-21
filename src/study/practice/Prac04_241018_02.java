@@ -2,7 +2,7 @@ package study.practice;
 
 import java.util.Scanner;
 
-public class Prac04_02_241018 {
+public class Prac04_241018_02 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
