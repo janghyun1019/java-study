@@ -1,6 +1,6 @@
 package study.practice;
 
-public class Prac05_241021 {
+public class Prac06_241021 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
