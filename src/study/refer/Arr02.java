@@ -54,6 +54,9 @@ public class Arr02 {
 		}
 		int[][] nArr4 = new int[5][3];
 		
+		
+		
+		
 
 	}
 
