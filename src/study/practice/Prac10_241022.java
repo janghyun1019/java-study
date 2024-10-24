@@ -28,6 +28,8 @@ public class Prac10_241022 {
 			System.out.printf("국어 : %d\n수학 : %d\n영어 : %d\n합계 : %d\n평균 : %.1f\n축하합니다, 합격입니다!",
 					korScore,   mathScore,    engScore,   sum,     average );
 		}
+		
+		
 
 	}
 
