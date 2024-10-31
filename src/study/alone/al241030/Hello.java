@@ -1,4 +1,4 @@
-package study.alone;
+package study.alone.al241030;
 
 public class Hello {
 	//프로그램 실행 진입점

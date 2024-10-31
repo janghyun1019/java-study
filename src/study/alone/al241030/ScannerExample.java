@@ -1,4 +1,4 @@
-package study.alone;
+package study.alone.al241030;
 
 import java.util.Scanner;
 
