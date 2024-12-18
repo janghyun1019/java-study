@@ -1,4 +1,4 @@
-package study.practice.prac241216;
+package study.practice.prac20_241216;
 
 import java.util.HashSet;
 import java.util.Random;
