@@ -1,6 +1,8 @@
-package study.quiz.quiz250103;
+package study.db.sample.v2;
 
 import java.sql.Date;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
 
 public class ProfessorDTO {
 	int profno;
@@ -9,6 +11,40 @@ public class ProfessorDTO {
 	String position;
 	int pay;
 	int deptno;
+	String hiredate;
+	
+	public String getHiredate() {
+		return hiredate;
+	}
+	
+	public void setHiredate(String hiredate) {
+		this.hiredate = hiredate;
+	}
+	
+	/*
+	LocalDateTime hiredate;
+	
+	public LocalDateTime getHiredate() {
+		return hiredate;
+	}
+	public void setHiredate(LocalDateTime hiredate) {
+		this.hiredate = hiredate;
+	}
+	*/
+	
+	/*
+	LocalDate hiredate;
+	
+	public LocalDate getHiredate() {
+		return hiredate;
+	}
+	public void setHiredate(LocalDate hiredate) {
+		this.hiredate = hiredate;
+	}
+	*/
+	
+	
+	
 	
 	public int getProfno() {
 		return profno;
@@ -50,10 +86,6 @@ public class ProfessorDTO {
 	public String toString() {
 		return "ProfessorDTO [profno=" + profno + ", name=" + name + ", id=" + id + ", position=" + position + ", pay="
 				+ pay + ", deptno=" + deptno + "]";
-	}
-	public void setHiredate(Date date) {
-		// TODO Auto-generated method stub
-		
 	}
 
 }
